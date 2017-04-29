@@ -31,18 +31,18 @@ background-size: cover;}
     background-image: url(https://wallpaperscraft.com/image/dubai_night_evening_sunset_orange_black_palm_trees_water_light_reflection_58546_2560x1600.jpg) !important;
 background-size: cover;}
 
-#voice-connection {
+#rtc-connection {
     margin-left: 3vh !important;
 }
 
-.layers { background: transparent !important;
+.layers, .layer { background: transparent !important;
 }
 
-#voice-connection .btn, .account .btn {
+#rtc-connection .btn, .account .btn {
     border: none !important;
 }
 
-#voice-connection, #friends, #friends .btn, .friends-header, .friends-table, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, .messages-wrapper, .title-wrap, .content, .chat-empty, .message-group-blocked, .private-channels, .guild-header header, .typing, .ider-red span {
+#rtc-connection, #friends, #friends .btn, .friends-header, .friends-table, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, .messages-wrapper, .title-wrap, .content, .chat-empty, .message-group-blocked, .private-channels, .guild-header header, .typing, .ider-red span {
     background: transparent !important;
 }
 
@@ -294,7 +294,7 @@ background-size: cover;}
     width: 15vw !important;
 }
 
-#voice-connection .btn-info {
+#rtc-connection .btn-info {
     border-right: 1px solid rgba(255,97,0, .3) !important;
     height: 26px;
     bottom: 2px;
@@ -319,12 +319,12 @@ background-size: cover;}
     background-color: #232323 !important;
 }
 
-.account .btn-group, #voice-connection .btn-group {
+.account .btn-group, #rtc-connection .btn-group {
     border-radius: 10px;
     background-color: #232323 !important;
 }
 
-#voice-connection .btn {
+#rtc-connection .btn {
     background-color: #232323 !important;
     border: none;
 }
@@ -425,7 +425,7 @@ span.ping{
     opacity: 1 !important;
 }
 
-#voice-connection {
+#rtc-connection {
       margin-left: 1vh !important;
   }
 
@@ -576,7 +576,7 @@ span.ping{
     border-color: transparent !important;
 }
 
-#voice-connection .btn-info:after {
+#rtc-connection .btn-info:after {
     padding-bottom: 2px;
 }
 
@@ -1100,7 +1100,7 @@ div.icon-friends {
     background-color: #ff6100 !important;
 }
 
-#voice-connection .btn:hover:after {
+#rtc-connection .btn:hover:after {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
 }
@@ -1618,7 +1618,7 @@ spinner-pulsing-ellipsis .spinner-item {
 
 /* Custom SVGs */
 /* Voice and account buttons */
-#voice-connection .btn-group, .account .btn-group {
+#rtc-connection .btn-group, .account .btn-group {
   border-radius: 10px !important;
   border: 1px solid rgba(17,47,45,0.3);
 }
@@ -1701,21 +1701,21 @@ spinner-pulsing-ellipsis .spinner-item {
 }
 
 
-#voice-connection .btn-disconnect:after {
+#rtc-connection .btn-disconnect:after {
   background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/orange/orange-disconnect.svg') !important;
   opacity: 0.4 !important;
 }
-#voice-connection .btn-info:after {
+#rtc-connection .btn-info:after {
   background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/orange/orange-info-ping.svg') !important;
   opacity: 0.4 !important;
 }
 
-#voice-connection .btn-disconnect:hover:after {
+#rtc-connection .btn-disconnect:hover:after {
   background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/orange/orange-disconnect.svg') !important;
   opacity: 1 !important;
   background-repeat: no-repeat !important;
 }
-#voice-connection .btn-info:hover:after {
+#rtc-connection .btn-info:hover:after {
   background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/orange/orange-info-ping.svg') !important;
   opacity: 1 !important;
   background-repeat: no-repeat !important;
@@ -2083,7 +2083,7 @@ div.flex-spacer.flex-vertical form{
 }
 
 
-div#voice-connection{
+div#rtc-connection{
   border: none !important;
 }
 
